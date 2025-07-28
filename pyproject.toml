@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datablinder"
+version = "1.0.0"
+description = "Reversible and encrypted tokenization tool for securing sensitive data."
+authors = [
+    { name="Arnaldo Duarte", email="arduarte67@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+    "tokenization", "privacy", "security", "LLM", "clipboards", "reversible masking",
+    "DevSecOps", "forensics", "confidentiality", "AI", "prompt masking"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Topic :: Security",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Utilities"
+]
+dependencies = [
+    "pyperclip",
+    "keyboard",
+    "cryptography",
+    "plyer",
+    "psutil"
+]
+
+[project.scripts]
+datablinder = "datablinder:main"
