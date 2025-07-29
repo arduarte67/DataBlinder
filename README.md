@@ -132,7 +132,7 @@ While **Data Blinder** provides an effective mechanism for protecting sensitive 
 
  🧪 Experimental Nature
 
-This application was developed as a proof-of-concept to demonstrate advanced tokenization techniques. It has not undergone comprehensive security testing. Therefore, **it may contain unknown vulnerabilities**, and its use in production environments is at the discretion and risk of the user.
+This application was developed as a proof-of-concept to demonstrate tokenization fundamentals. It has not undergone comprehensive security testing. Therefore, **it may contain unknown vulnerabilities**, and its use in production environments is at the discretion and risk of the user.
 
 🛡️ Device-Level Security Dependency
 
