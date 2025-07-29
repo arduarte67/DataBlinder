@@ -60,7 +60,7 @@ pip install -r requirements.txt
 🔐 Set your secret key:
 
 ```bash
-set DATABLINDER_KEY=your_secure_16_digit_strong_password
+set DATABLINDER_KEY=<your_secure_16_digit_strong_password>
 ```
 
 ☑️ For permanent usage, define this key in your system environment variables.
