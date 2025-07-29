@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="DataBlinderLogo.png" alt="DataBlinder Logo" width="250"/>
+</p>
+
+
 # 🛡️ DataBlinder
 
 **DataBlinder** is a lightweight Python tool for reversible and encrypted tokenization of sensitive data. It is designed to ensure data privacy and confidentiality when interacting with language models (LLMs), publishing technical logs, or sharing evidence in collaborative environments and others use cases.
