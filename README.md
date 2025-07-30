@@ -36,10 +36,24 @@
 - **Original**: The `administrator` user executed the command `ping 192.168.1.1` at `13:00`.  
 - **Tokenized**: The `#DB-USER-df8a1223` user executed the command `ping #DB-IP-52a3f87b` at `13:00`.
 
-### 3. Writing Forensic Reports
+### 3. Judicial Document Review and Redaction
 
-- **Original**: The IP `10.0.0.5` and host `srv01.local` accessed `http[:]//example[.]com` at `10:32`.  
-- **Tokenized**: The IP `#DB-IP-8f3ad921` and host `#DB-HOST-7b9c3e11` accessed the URL `#DB-URL-19a8d87c` at `10:32`.
+- **Original**: 
+
+Plaintiff: James M. Robertson
+SSN: 123-45-6789
+Case Number: 22-CV-1047
+Address: 455 East 58th Street, Apt 12B, New York, NY 10022
+Filing: The plaintiff alleges breach of contract and seeks injunctive relief and compensatory damages.
+
+- **Tokenized**: 
+
+Plaintiff: #DB-NAME-a1b2c3d4
+SSN: #DB-SSN-e5f6g7h8
+Case Number: #DB-CASE-i9j0k1l2
+Address: #DB-ADDR-m3n4o5p6
+Filing: The plaintiff alleges breach of contract and seeks injunctive relief and compensatory damages.
+
 <br>
 
 
