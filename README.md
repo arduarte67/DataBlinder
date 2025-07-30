@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="DataBlinderLogo.png" alt="DataBlinder Logo" width="250"/>
+  <img src="./DataBlinderLogo.png" alt="DataBlinder Logo" width="250"/>
 </p>
 
 
