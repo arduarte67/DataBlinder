@@ -123,7 +123,10 @@ To activate debug logging:
 python datablinder.py -d
 ```
 
-➡️ Logs will be saved to `datablinder.dbg`.
+➡️ Logs will be saved to `datablinder.dbg` .
+
+⚠️ Warning: When running in debug mode (-d), sensitive or confidential data may be written in plain text to the file datablinder.dbg, including clipboard contents and detokenized outputs.
+This file must be manually deleted as soon as possible to prevent unauthorized access or data leaks. Use debug mode only for troubleshooting purposes and with full awareness of the associated privacy risks.
 <br><br>
 
 
