@@ -18,8 +18,8 @@
 - Fast & Practical: 
   - Press `Ctrl+Alt+T` to tokenize
   - Press `Ctrl+Alt+R` to reverse
-- Customizable Rules: Define your regex patterns in `rules.cfg`
-- Optional Header: Add a standard security note with `header.cfg`
+- Customizable Rules: Define your regex patterns in `rules.cfg`  
+- Optional Header: Add a standard security note with `header.cfg`  
 - Privacy by Design: Nothing sensitive is logged or stored
 <br>
 
@@ -40,19 +40,19 @@
 
 - **Original**: 
 
-Plaintiff: James M. Robertson
-SSN: 123-45-6789
-Case Number: 22-CV-1047
-Address: 455 East 58th Street, Apt 12B, New York, NY 10022
-Filing: The plaintiff alleges breach of contract and seeks injunctive relief and compensatory damages.
+Plaintiff: James M. Robertson<br>
+SSN: 123-45-6789<br>
+Case Number: 22-CV-1047<br>
+Address: 455 East 58th Street, Apt 12B, New York, NY 10022<br>
+Filing: The plaintiff alleges breach of contract and seeks injunctive relief and compensatory damages.<br>
 
 - **Tokenized**: 
 
-Plaintiff: #DB-NAME-a1b2c3d4
-SSN: #DB-SSN-e5f6g7h8
-Case Number: #DB-CASE-i9j0k1l2
-Address: #DB-ADDR-m3n4o5p6
-Filing: The plaintiff alleges breach of contract and seeks injunctive relief and compensatory damages.
+Plaintiff: #DB-NAME-a1b2c3d4<br>
+SSN: #DB-SSN-e5f6g7h8<br>
+Case Number: #DB-CASE-i9j0k1l2<br>
+Address: #DB-ADDR-m3n4o5p6<br>
+Filing: The plaintiff alleges breach of contract and seeks injunctive relief and compensatory damages.<br>
 
 <br>
 
