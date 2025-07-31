@@ -5,7 +5,7 @@
 
 # 🛡️ DataBlinder
 
-**DataBlinder** is a lightweight Python tool for reversible and encrypted tokenization of sensitive data. It is designed to ensure data privacy and confidentiality when interacting with language models (LLMs), publishing technical logs, or sharing confidencial documents in collaborative environments and others use cases.
+**DataBlinder** is a lightweight Python tool for reversible and encrypted tokenization of sensitive data. It is designed to ensure data privacy and confidentiality when interacting with Large Language Models (LLMs), publishing technical logs, or sharing confidencial documents in collaborative environments and others use cases.
 
 🔐 Tokenization is reversible based on dynamic keys generated from a timestamp and the environment variable `DATABLINDER_KEY`. Reversion data is stored **only in encrypted memory**.
 <br><br>
